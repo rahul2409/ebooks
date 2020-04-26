@@ -48,8 +48,8 @@ class DrawerBook extends StatelessWidget {
                 
               },
               child: ListTile(
-                title: new Text('Gallery'),
-                leading: new Icon(Icons.photo_album,color: Colors.blue,),
+                title: new Text('Books'),
+                leading: new Icon(Icons.book,color: Colors.blue,),
               ),
           ),
 
@@ -58,8 +58,8 @@ class DrawerBook extends StatelessWidget {
                 
               },
               child: ListTile(
-                title: new Text('Shopping cart'),
-                leading: new Icon(Icons.shopping_cart,color: Colors.blue,),
+                title: new Text('My Books'),
+                leading: new Icon(Icons.library_books,color: Colors.blue,),
               ),
           ),
 
@@ -73,16 +73,6 @@ class DrawerBook extends StatelessWidget {
               ),
           ),
 
-          InkWell(
-              onTap: () {
-                
-              },
-              child: ListTile(
-                title: new Text('Franchise'),
-                leading: new Icon(Icons.business,color: Colors.blue,),
-              ),
-          ),
-
           Divider(),
 
           InkWell(
@@ -91,7 +81,7 @@ class DrawerBook extends StatelessWidget {
               },
               child: ListTile(
                 title: new Text('Settings'),
-                leading: new Icon(Icons.settings,color: Colors.blue,),
+                leading: new Icon(Icons.settings,color: Colors.grey,),
               ),
           ),
 
@@ -101,7 +91,7 @@ class DrawerBook extends StatelessWidget {
               },
               child: ListTile(
                 title: new Text('Contact us'),
-                leading: new Icon(Icons.contact_mail,color: Colors.blue,),
+                leading: new Icon(Icons.phone,color: Colors.green,),
               ),
           ),
         ]
